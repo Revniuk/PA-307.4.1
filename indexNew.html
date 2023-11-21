@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .flex-container {
+            display: flex;
+            flex-direction: column; /* Adjusted to stack elements vertically */
+        }
+
+        .topSection {
+            width: 100%;
+            background-color: #4da6ff;
+        }
+
+        .d-flex {
+            display: flex;
+            flex: 1;
+        }
+
+        .leftSection {
+            flex: 85;
+            background-color: rosybrown;
+            padding: 10px;
+        }
+
+        .rightSection {
+            flex: 15;
+            background-color: #ffcc66;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="topSection">
+            <h2>This is the top section</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id enim et eros semper ultrices. Donec ac enim eget quam semper faucibus. Donec at quam eget eros faucibus tincidunt.</p>
+        </div>
+
+        <div class="d-flex">
+            <div class="leftSection">
+                <h2>This is the left section</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id enim et eros semper ultrices. Donec ac enim eget quam semper faucibus. Donec at quam eget eros faucibus tincidunt.</p>
+            </div>
+
+            <div class="rightSection">
+                <h2>This is the right section</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id enim et eros semper ultrices. Donec ac enim eget quam semper faucibus. Donec at quam eget eros faucibus tincidunt.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
